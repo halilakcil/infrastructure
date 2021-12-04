@@ -1,0 +1,6 @@
+﻿- Context: Nesnelerle veritabanının iletişimini kuran nesnedir. Bu bir entityframework nesnesi olduğu için nuget aracılığı ile 
+upload edilmesi gerekir. (Microsoft.EntityFrameworkCore.SqlServer)
+
+
+
+

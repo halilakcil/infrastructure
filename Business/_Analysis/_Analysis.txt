@@ -1,0 +1,10 @@
+﻿- magic stringlerden kurtulma
+"Ürün başarıyla silindi" gibi ifadeleri sabitleyebilmek için Constants > Messages yapısı kuruldu
+
+- autofac IOC Container yapısını kurarak dependency injection alt yapısını yazıyoruz.
+bu yapı DependencyResolvers > Autofac dizininde bulunmaktadır. business katmanındaki autofac yapısını 
+kullanabilmek için api katmanına nuget ile Autofac.Extensions.DependencyInjection kütüphanesini kurmamız gerekiyor.
+
+
+
+

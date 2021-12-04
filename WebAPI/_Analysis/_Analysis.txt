@@ -1,0 +1,9 @@
+﻿- business katmanındaki autofac yapısını kullanabilmek için api katmanına nuget ile Autofac.Extensions.DependencyInjection
+kütüphanesini kurmamız gerekiyor. indirme işlemi tamamlandıktan sonra Program.cs içindeki IHostBuilder içine aşağıdaki kodu
+eklemek gerekiyor. 
+
+.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                .ConfigureContainer<ContainerBuilder>(builder =>
+                    {
+                        builder.RegisterModule(new AutofacBusinessModule());
+                    })

@@ -1,0 +1,6 @@
+﻿										YARDIMCI BİLGİLER
+
+- IEntity interface'ini bu katmana çekmemizin sebebi bir veritabanı nesnesi olduğunu anlatması ve veritabanını da 
+tüm katmanlarda kullanacağımızdan dolayıdır.
+
+

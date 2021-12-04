@@ -1,0 +1,15 @@
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
+E:\Dev\NorthwindBackend\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+E:\Dev\NorthwindBackend\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

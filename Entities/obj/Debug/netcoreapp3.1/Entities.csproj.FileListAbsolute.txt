@@ -1,0 +1,15 @@
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Core.dll
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
