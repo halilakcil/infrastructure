@@ -9,5 +9,5 @@ E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.dll
 E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.pdb
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
-E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
 E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
+E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache

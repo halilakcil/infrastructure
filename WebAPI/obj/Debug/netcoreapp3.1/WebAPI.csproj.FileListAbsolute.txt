@@ -43,3 +43,14 @@ E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Core.pdb
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

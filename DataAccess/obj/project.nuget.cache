@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HvVZTuFH8UUO0wiFawA9oLFMuFsy7ipkjhDoVoz7k2OWk9hqqoq9c38NjenWbuy1urbCL1ErJF4H0Vwos7ykGA==",
+  "dgSpecHash": "DKkN49+Ix/jnLUFDbZZ9KUqIljiPcjVHwAxgdQepjSnoXc8LfC7bB3r+VO7Yw7XcoCZmxcEKxqDqcEmgLJTY4Q==",
   "success": true,
   "projectFilePath": "E:\\Dev\\NorthwindBackend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\2.2.6\\microsoft.entityframeworkcore.sqlserver.2.2.6.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
-    "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration\\2.2.0\\microsoft.extensions.configuration.2.2.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.2.0\\microsoft.extensions.configuration.binder.2.2.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.2.0\\microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",

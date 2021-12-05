@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4opQOUMGKVODDAtrZL3XvxzW7knLucP86nhWzU+/28edNZIB0GhCwS/wRjZeflPx0aH8oc40a/LaM/4y3DWirw==",
+  "dgSpecHash": "7XPwulXHgrcSnmGuRpbS8BH6GyLTBC89NYucPcYmBeSRgem1pZxGlD9eDxro658efIPHdkQ0zheHT3QF05tV8g==",
   "success": true,
   "projectFilePath": "E:\\Dev\\NorthwindBackend\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\VetidentDeveloper\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.14.1\\microsoft.identitymodel.jsonwebtokens.6.14.1.nupkg.sha512",
