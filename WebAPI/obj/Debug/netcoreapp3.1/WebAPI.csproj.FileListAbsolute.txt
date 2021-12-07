@@ -25,10 +25,8 @@ E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFramework
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
@@ -54,3 +52,6 @@ E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Auth
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll

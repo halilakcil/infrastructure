@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
-using Core.Concrete;
+using Core.Entities.Concrete;
 using Core.Extensions;
 using Core.Utilities.Security.Encryption;
-using Entities.Concrete;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
@@ -20,13 +19,7 @@ namespace Core.Utilities.Security.JWT
         public JwtHelper(IConfiguration configuration)
         {
             Configuration = configuration;
-            _tokenOption = new TokenOption
-            {
-                Audience = Configuration.GetSection("TokenOptions")["Audience"],
-                Issuer = Configuration.GetSection("TokenOptions")["Issuer"],
-                AccessTokenExpiration = Convert.ToInt32(Configuration.GetSection("TokenOptions")["AccessTokenExpiration"]),
-                SecurityKey = Configuration.GetSection("TokenOptions")["SecurityKey"]
-            };
+            _tokenOption = Configuration.GetSection("TokenOptions").Get<TokenOption>();
             _accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
         }
 

@@ -4,3 +4,4 @@
 tüm katmanlarda kullanacağımızdan dolayıdır.
 
 
+Örnekte Engin Hoca'nın IConfiguration için kullandığı Microsoft.Extensions.Configuration nuget paketi versiyonu 2.2 . Bu girdiyi yazdığım an itibariyle 3.0 sürümü yayınlamış. Bu yeni versiyonda GetSection() metodu sonrası Get<T>() extension unun gelebilmesi için Microsoft.Extensions.Configuration.Binder nuget paketinin de yüklenmesi gerekiyor.

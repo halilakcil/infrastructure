@@ -13,3 +13,4 @@ E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 E:\Dev\NorthwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
+E:\Dev\NorthwindBackend\Entities\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

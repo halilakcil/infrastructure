@@ -1,9 +1,11 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -15,6 +17,7 @@ namespace WebAPI.Controllers
             _productService = productService;
         }
 
+        [Authorize]
         [HttpGet("getlist")]
         public IActionResult GetList()
         {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Core.Concrete;
+using Core.Entities.Concrete;
 using Core.EntityFramework;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework.Contexts;
