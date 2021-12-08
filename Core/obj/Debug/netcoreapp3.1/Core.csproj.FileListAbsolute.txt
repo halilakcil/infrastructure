@@ -11,3 +11,4 @@ E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCo
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.xml
 E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
