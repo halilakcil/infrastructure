@@ -16,6 +16,12 @@
     <Reference Include="Microsoft.EntityFrameworkCore">
       <HintPath>C:\Users\VetidentDeveloper\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory">
+      <HintPath>_dll\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>_dll\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt">
       <HintPath>C:\Users\VetidentDeveloper\.nuget\packages\system.identitymodel.tokens.jwt\5.5.0\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>

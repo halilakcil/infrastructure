@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
+using Core.DependencyResolvers;
+using Core.Extensions;
+using Core.Utilities.IoC;
 
 namespace WebAPI
 {
@@ -46,8 +49,8 @@ namespace WebAPI
             {
                 options.AddPolicy("AllowOrigin", builder => builder.WithOrigins("https://localhost:3000"));
             });
-            
 
+            services.AddDependencyResolvers(new ICoreModule[] { new CoreModule(), });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
