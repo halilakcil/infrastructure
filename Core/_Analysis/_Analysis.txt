@@ -4,4 +4,21 @@
 tüm katmanlarda kullanacağımızdan dolayıdır.
 
 
-Örnekte Engin Hoca'nın IConfiguration için kullandığı Microsoft.Extensions.Configuration nuget paketi versiyonu 2.2 . Bu girdiyi yazdığım an itibariyle 3.0 sürümü yayınlamış. Bu yeni versiyonda GetSection() metodu sonrası Get<T>() extension unun gelebilmesi için Microsoft.Extensions.Configuration.Binder nuget paketinin de yüklenmesi gerekiyor.
+Cross Cutting Concern:
+
+Örnekte Engin Hoca'nın IConfiguration için kullandığı Microsoft.Extensions.Configuration nuget paketi versiyonu 2.2 . 
+Bu girdiyi yazdığım an itibariyle 3.0 sürümü yayınlamış. Bu yeni versiyonda GetSection() metodu sonrası Get<T>() 
+extension unun gelebilmesi için Microsoft.Extensions.Configuration.Binder nuget paketinin de yüklenmesi gerekiyor.
+
+Cross Cutting Concerns Nedir?
+Cross Cutting Concerns’ün Türkçe anlamına bakacak olursak “Kesişen İlgiler” ya da “Çapraz Kesen İlgiler” diye geçmektedir. 
+Yandaki fotoğrafa bakacak olursak da konunun anlaşılması ve devamlılığı için daha sağlıklı olacaktır. 
+Yanda klasik bir monolitik yapı görünmektedir ve sağ kısımda Cross Cutting Concerns çatısı altında; security, caching, exception handling, logging gibi işlemler yer almaktadır. 
+Bunların hepsi birer Concern yani ilgidir. 
+Cross Cutting Concerns denmesinin sebebi projeyi dikine kesmesinden kaynaklı, 
+dikine kesmesinin altında yatan anlam ise katman bağımsız, 
+projenin istenilen yerinde kullanılması, kullanılan yerden soyutlanmış olmasından kaynaklıdır. 
+Özetle yazılımın birden fazla yerinde kullanılan, fonksiyonel olmayan ihtiyaçlar denilebilir.
+
+Buraya kadar olan bilgiler ile AOP’un çıkış noktasının Cross Cutting Concerns’ler olduğunu söylemek yeridir. 
+Cross Cutting Concerns’ler olmasa idi AOP’a ihtiyaç yoktur denilebilir.

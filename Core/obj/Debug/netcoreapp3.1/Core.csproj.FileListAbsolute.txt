@@ -12,3 +12,8 @@ E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCo
 E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.xml
