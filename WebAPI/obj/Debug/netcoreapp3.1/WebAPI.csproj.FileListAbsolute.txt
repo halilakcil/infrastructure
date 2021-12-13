@@ -55,3 +55,6 @@ E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\Dev\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
