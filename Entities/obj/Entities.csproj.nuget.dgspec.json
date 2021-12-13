@@ -68,6 +68,10 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.15.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.13, )"
             }
           },
           "imports": [
