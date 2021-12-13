@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using Business.Abstract;
 using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -26,8 +28,10 @@ namespace Business.Concrete
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == id));
         }
 
+        [PerformanceAspect(5)]
         public IDataResult<IList<Product>> GetList()
         {
+            Thread.Sleep(5000);
             return new SuccessDataResult<IList<Product>>(_productDal.GetList().ToList());
         }
 
