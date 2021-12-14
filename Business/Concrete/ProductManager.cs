@@ -6,8 +6,10 @@ using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Logging;
 using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -37,6 +39,7 @@ namespace Business.Concrete
 
         [SecuredOperation("Product.List,Admin")]
         [CacheAspect(duration: 1)]
+        [LogAspect(typeof(DatabaseLogger))]
         public IDataResult<IList<Product>> GetListByCategoryId(int categoryId)
         {
             return new SuccessDataResult<IList<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());

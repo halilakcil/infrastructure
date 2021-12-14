@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Core.CrossCuttingConcern.Logging
+namespace Core.CrossCuttingConcerns.Logging
 {
     public class LogDetail
     {

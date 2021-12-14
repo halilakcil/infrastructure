@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using Castle.DynamicProxy;
-using Core.CrossCuttingConcern.Caching;
+using Core.CrossCuttingConcerns.Caching;
 using Core.Utilities.Interceptors.Autofac;
 using Core.Utilities.IoC;
 using Microsoft.Extensions.DependencyInjection;

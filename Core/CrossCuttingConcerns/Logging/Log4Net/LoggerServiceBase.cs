@@ -2,9 +2,8 @@
 using System.Reflection;
 using System.Xml;
 using log4net;
-using log4net.Repository;
 
-namespace Core.CrossCuttingConcern.Logging.Log4Net
+namespace Core.CrossCuttingConcerns.Logging.Log4Net
 {
     public abstract class LoggerServiceBase
     {
@@ -26,27 +25,27 @@ namespace Core.CrossCuttingConcern.Logging.Log4Net
         public bool IsFatalEnabled => _log.IsFatalEnabled;
         public bool IsErrorEnabled => _log.IsErrorEnabled;
 
-        public void Info(string logMessage)
+        public void Info(object logMessage)
         {
             if (IsInfoEnabled)
                 _log.Info(logMessage);
         }
-        public void Debug(string logMessage)
+        public void Debug(object logMessage)
         {
             if (IsDebugEnabled)
                 _log.Debug(logMessage);
         }
-        public void Warn(string logMessage)
+        public void Warn(object logMessage)
         {
             if (IsWarnEnabled)
                 _log.Warn(logMessage);
         }
-        public void Fatal(string logMessage)
+        public void Fatal(object logMessage)
         {
             if (IsFatalEnabled)
                 _log.Fatal(logMessage);
         }
-        public void Error(string logMessage)
+        public void Error(object logMessage)
         {
             if (IsErrorEnabled)
                 _log.Error(logMessage);

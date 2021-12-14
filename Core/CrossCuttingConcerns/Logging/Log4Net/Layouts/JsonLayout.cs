@@ -3,7 +3,7 @@ using log4net.Core;
 using log4net.Layout;
 using Newtonsoft.Json;
 
-namespace Core.CrossCuttingConcern.Logging.Log4Net.Layouts
+namespace Core.CrossCuttingConcerns.Logging.Log4Net.Layouts
 {
     public class JsonLayout : LayoutSkeleton
     {

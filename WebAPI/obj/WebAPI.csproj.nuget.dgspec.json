@@ -153,6 +153,10 @@
               "target": "Package",
               "version": "[6.15.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "log4net": {
               "target": "Package",
               "version": "[2.0.13, )"
@@ -360,6 +364,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "MicroKnights.Log4NetAdoNetAppender": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
