@@ -11,5 +11,6 @@
         public static string UserAlreadyExists = "Kullanıcı zaten sistemde mevcut";
         public static string UserRegistered = "Kullanıcı başarıyla oluşturuldu";
         public static string AccessTokenCreated = "AccessToken başarıyla oluşturuldu";
+        public static string AuthorizationDenied = "Yetkiniz yok!";
     }
 }

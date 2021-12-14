@@ -6,7 +6,7 @@ using Core.Utilities.IoC;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Core.CrossCuttingConcern.Caching.Microsoft
+namespace Core.CrossCuttingConcerns.Caching.Microsoft
 {
     public class MemoryCacheManager : ICacheManager
     {

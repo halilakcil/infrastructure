@@ -63,6 +63,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.5, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             }
           },
           "imports": [
@@ -133,6 +137,10 @@
               "target": "Package",
               "version": "[10.3.5, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -144,6 +152,14 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.13, )"
             }
           },
           "imports": [

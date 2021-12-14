@@ -1,10 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using Business.Abstract;
+using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Logging;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -25,12 +30,16 @@ namespace Business.Concrete
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == id));
         }
 
+        [PerformanceAspect(5)]
         public IDataResult<IList<Product>> GetList()
         {
+            Thread.Sleep(5000);
             return new SuccessDataResult<IList<Product>>(_productDal.GetList().ToList());
         }
 
+        [SecuredOperation("Product.List,Admin")]
         [CacheAspect(duration: 1)]
+        [LogAspect(typeof(DatabaseLogger))]
         public IDataResult<IList<Product>> GetListByCategoryId(int categoryId)
         {
             return new SuccessDataResult<IList<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());
