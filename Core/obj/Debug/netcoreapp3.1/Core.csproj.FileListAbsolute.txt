@@ -15,3 +15,4 @@ E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Cachin
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 E:\Dev\NorthwindBackend\Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.xml
+E:\Dev\NorthwindBackend\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
