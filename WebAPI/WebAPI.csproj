@@ -14,5 +14,9 @@
     <ProjectReference Include="..\Business\Business.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="_DbScripts\Inıtialize\" />
+  </ItemGroup>
+
 
 </Project>
