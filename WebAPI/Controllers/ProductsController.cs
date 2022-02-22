@@ -18,7 +18,7 @@ namespace WebAPI.Controllers
         }
 
         //fork control
-        [Authorize(Roles = "Product.List")]
+        [Authorize()]
         [HttpGet("getlist")]
         public IActionResult GetList()
         {

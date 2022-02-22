@@ -13,8 +13,6 @@ E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
-E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
-E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 E:\Dev\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb

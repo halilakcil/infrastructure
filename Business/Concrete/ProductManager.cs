@@ -39,13 +39,12 @@ namespace Business.Concrete
             return new SuccessDataResult<IList<Product>>(_productDal.GetList().ToList());
         }
 
-        [SecuredOperation("Product.List,Admin")]
+        //[SecuredOperation("Product.List,Admin")]
         [CacheAspect(duration: 1)]
-        [LogAspect(typeof(FileLogger))]
+        [LogAspect(typeof(DatabaseLogger))]
         //[ExceptionLogAspect(typeof(FileLogger))]
         public IDataResult<IList<Product>> GetListByCategoryId(int categoryId)
         {
-            var a = "halil"[100];
             return new SuccessDataResult<IList<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());
         }
 
